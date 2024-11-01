@@ -1,0 +1,209 @@
+
+ body .flex .cmb2-metabox.cmb-field-list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+ .flex .cmb2-metabox-description {
+   display: block;
+ }
+
+ .flex .cmb2-metabox.cmb-field-list .cmb-row {
+   width: 230px;
+ }
+
+ .flex .cmb2-metabox.cmb-field-list .cmb-row .cmb-th,
+ .flex .cmb2-metabox.cmb-field-list .cmb-row .cmb-td {
+   width: 100%;
+   float: none;
+   text-align: center;
+ }
+
+body .cmb-row.half-view {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.cmb-row.half-view .cmb-th {
+  min-width: 100px;
+}
+
+.cmb-row.half-view .cmb-th,
+.cmb-row.half-view .cmb-td {
+  display: inline-block;
+    vertical-align: middle;
+}
+
+body .cmb-row.half-view > .cmb-td {
+  width: calc(80% - 20px);
+}
+
+body .cmb-row.half-view.width-40 {
+  width: 45%;
+}
+
+body .cmb-row.half-view.width-50 {
+  width: 50%;
+}
+
+.cmb-row.half-view.width-50 .cmb-th {
+  min-width: 140px;
+}
+
+.cmb-row.long-th .cmb-th {
+  width: 140px;
+}
+
+.cmb-file-field-image {
+  max-height: 150px;
+  width: auto;
+}
+
+body .cmb-row.half-view.width-50 > .cmb-td {
+  width: calc(80% - 60px);
+}
+
+body .cmb-row.half-view.width-40 > .cmb-td {
+  width: calc(80% - 30px);
+}
+
+body .cmb-row.half-view.width-40 .cmb-td .regular-text,
+body .cmb-row.half-view.width-50 .cmb-td .regular-text {
+  width: 100%;
+}
+
+body .cmb-type-group .cmb-th + .cmb-td, .cmb2-postbox .cmb-th + .cmb-td {
+  float: left;
+}
+
+body .cmb-type-group .cmb-th, .cmb2-postbox .cmb-th {
+  width: 100px;
+}
+
+.tf_members_page_tf-addons .about-wrap h1,
+.tf_members_page_tf-dashboard .about-wrap h1{
+	color: rgb(4, 119, 4);
+	font-weight: 700;
+	letter-spacing: -.7px;
+}
+.tf_members_page_tf-addons .about-wrap h1:before,
+.tf_members_page_tf-dashboard #adn:before{
+	content: " ";
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	vertical-align: middle;
+	background: url(../images/lab.png) no-repeat;
+	background-size: 100% 100%;
+}
+.tf_members_page_tf-dashboard #adn:before{
+	width: 30px;
+	height: 30px;
+}
+
+#tfmb_addons .addons img {
+  position: relative;
+  max-width: 130px;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+  top: 10px;
+  left: 7px;
+}
+
+#tfmb_addons .addons p {
+  font-size: 0.9em;
+  background: #f0f0f0;
+  padding: 7px;
+}
+
+#tfmb_addons .addons p a {
+  margin-top: 10px;
+}
+
+#tfmb_addons h3 {
+  text-align: center;
+  font-size: 1.2em;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+}
+
+.tfh{
+	display: inline-block;
+	max-width: 570px;
+	padding: 15px;
+	vertical-align: top;
+}
+.tfh .desc strong, .tfhd strong{
+	color: rgb(4, 119, 4);
+	font-weight: 700;
+	font-size: 1.1em;
+}
+.tfhd{
+  max-width: 350px;
+  text-align: center;
+  margin: 20px auto;
+}
+.tfhd h3{text-align: center; margin-top: 45px;}
+.about-wrap{max-width: 1600px}
+.about-wrap .tfh p{
+	margin-top: 0;
+}
+.tfh img{
+	float: left;
+	max-width: 220px;
+	margin-right: 10px;
+}
+.learn-more{
+	display: block;
+	padding: 5px 15px;
+	padding-bottom: 6px;
+	border-radius: 4px;
+	border: 1px solid #085a08;
+	background: #4d9c4d;
+	max-width: 90px;
+	text-decoration: none;
+	color: #fff;
+	line-height: 1.6;
+	text-align: center;
+}
+.learn-more:hover{background: #333}
+.feature-section .learn-more,
+#tf_ad .learn-more{
+	display: inline-block;
+}
+.tf_members_page_tf-dashboard .feature-section p {
+	max-width: 890px;
+	margin: 10px 0;
+}
+#tf_ad .learn-more{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	display: block;
+	max-width: 100%;
+	margin: 10px auto;
+	text-align: center;
+}
+.about-links{margin: 15px 0;}
+.about-links a{
+	display: inline-block;
+	padding: 5px 15px;
+	border-radius: 3px;
+	border: 1px solid;
+	text-decoration: none;
+	background: rgba(255,255,255,0.9);
+}
+#tf-links a{
+	display: block;
+	max-width: 130px;
+	text-align: center;
+	text-decoration: none;
+	padding: 3px 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+.tf_members_page_tf-addons .learn-more {line-height: 1.25; font-size: 14px; padding: 5px 30px;}
